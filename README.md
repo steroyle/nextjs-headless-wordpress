@@ -24,6 +24,13 @@ WP_ENV='development'
 WP_HOME='http://localhost:9023'
 WP_SITEURL="${WP_HOME}/wp"
 ```
+
+Installing theme deps and running locally
+```
+cd web/app/themes/headless-wordpress-theme
+npm install
+npm run dev
+```
 Generate new with salts with roots.io [WordPress salts generator](https://roots.io/salts.html)
 
 - Headless theme is located in `web/app/themes/headless-wordpress-theme`
